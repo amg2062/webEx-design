@@ -160,6 +160,8 @@ body, html {
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
+
+    
 }
 
 .round-button {
@@ -318,4 +320,17 @@ body, html {
     .content {
         padding: 10px;
     }
+}
+.fixed{
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 0;
+    background-color: #484848 ;
+    height: 450px;
+    width :1165px;
+}
+
+.non-fixed{
+    margin-top: 450px;
+    z-index: -1;
 }
